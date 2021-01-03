@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Darker+Grotesque:wght@300&family=Montserrat:wght@100;200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("./Links/IMG_8109.JPG");
+    font-family: 'Amatic SC', cursive;
+    color:honeydew;
+    text-shadow: 2px 2px 6px #2b2828;
+    font-size:50px;
+    line-height:0.7em;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+
+    height: 500px;
+    overflow:hidden;
+}
+main{
+    height: auto;
+    margin: 0 0 100px 0;
+
+}
+
+header h1{
+    font-size:  2.7em;
+}
+header h2 {
+    font-size: 1.0em;
+	margin-top: 0px;
+}
+
+
+
+article{
+    margin:10% 10%,
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+ 
+}
+nav ul li {
+    float: right;;
+    display: block;
+    color: rgb(71, 71, 71);
+    text-align: center;
+    padding: 16px;
+
+
+}
+nav ul li:hover{
+    color: black;
+}
+
+.heading {
+    border:10px double white;
+    width: 40%;
+    margin: 0% auto;
+    padding:1em;
+}
+
+.welcome-words{
+    clear:both;
+    padding:2% 10%;
+    color: rgb(71, 71, 71);
+    border-top:1px solid rgb(71, 71, 71, 0.5);
+    border-bottom:1px solid rgb(71, 71, 71, 0.5);
+    margin:0 0 2% 0;
+}
+h2 {
+    font-family:'Amatic SC', cursive ;
+    font-size:2.0em;
+}
+
+/* Style main right */
+
+.main-right{
+    background-color: rgb(182, 208, 211);
+    padding:2%;
+    border:8px double white;
+    width: 70%;
+    float: left;
+    margin-left:1%;
+}
+
+article{
+    padding: 0 0 2em 0;
+    display:inline-block;
+    border-bottom: 2px solid grey
+}
+article img{
+    float:left;
+    width: 30%;
+    margin: 0 2% 0 0;
+    border:2px solid white
+}
+
+article a{
+    font-family:'Amatic SC', cursive ;
+    font-size: 30px;
+    color: inherit;
+    text-decoration: grey;
+}
+article a:hover{
+    color: grey
+}
+
+.article-content{
+    margin:0;
+    float:left;
+    width: 60%;
+    padding: 0 8% 0 0;
+    margin:0;
+}
+
+.pic-right img{
+    float:right;
+    margin:0 0 0 2%;
+}
+
+
+/* Style side board */
+
+.left-hand{
+    background-color: rgb(189, 188, 188);
+    border: 8px double white;
+    padding: 2%;
+    width:18%;
+    float: left;
+    margin-left: 1%;
+}
+
+.left-hand img{
+    width:99%;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+.left-hand ul li{
+    margin:2%;
+}
+.left-hand ul li a{
+    font-family:'Amatic SC', cursive ;
+    font-size: 30px;
+    color:inherit;
+    text-decoration: none;
+    
+}
+
+.left-hand ul li a:hover{
+    color:grey;
+    
+    
+}
+
+/* style footer */
+
+footer{
+    background-color:rgb(116, 143, 143);
+    width:100%;
+    text-align: center;
+    clear: left;
+    float:left;
+    display: inline;
+}
+
+
+footer ul li{
+    display: inline-block; 
+    float: none;
+    color: rgb(71, 71, 71);
+    padding: 16px;
+    list-style-type:none;
+}
+
+footer img{
+    width:60px;
+}
+
+
+
